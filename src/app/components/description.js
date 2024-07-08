@@ -17,3 +17,4 @@ function AboutMe() {
 export default AboutMe;
 
 //! REVOIR TAILWIND + REACTICONS comment le mettre à la suite et le positionner.
+//! Idem, voir pour ajouter un nom de class pour modifier le CSS (je veux faire un after sous mon texte H2)
