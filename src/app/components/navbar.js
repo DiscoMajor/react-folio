@@ -11,7 +11,6 @@ function Navibar() {
                         About Me
                     </a>
                 </li>
-
                 <li>
                     <a
                         class="bg-gradient-to-r from-emerald-500 text- to-green-600 text-white px-4 py-2 border-none rounded-md ml-8"

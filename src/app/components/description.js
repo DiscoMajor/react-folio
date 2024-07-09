@@ -2,7 +2,7 @@
 import { FaReact } from "react-icons/fa6";
 import { useTypewriter } from "react-simple-typewriter";
 
-function AboutMe() {
+function Intro() {
     const [typingEffect] = useTypewriter({
         words: [` Victor.`, ` a React Developer.`],
         loop: {},
@@ -10,7 +10,7 @@ function AboutMe() {
         deleteSpeed: 80,
     });
     return (
-        <section class="min-h-screen flex relative">
+        <section class="min-h-70 m-5 flex relative">
             <div class="text-center p-10 py-10 flex-auto ">
                 <h2 class="text-5xl py-2 font-medium md:text-5xl text-teal-600  dark:text-teal-400 ">
                     I'm
@@ -23,4 +23,4 @@ function AboutMe() {
         </section>
     );
 }
-export default AboutMe;
+export default Intro;
