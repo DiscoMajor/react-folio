@@ -5,7 +5,7 @@ export default function Experiences() {
         xp3: `Web Developer Training at Adrar Formation`,
     };
     return (
-        <div class="flex flex-wrap justify-evenly p-5 bg-leafbackground">
+        <div class="flex flex-wrap justify-evenly p-5 bg-leafbackground max-w-screen-2xl min-w-screen mx-auto">
             <ul class="grid grid-rows-2 grid-flow-col gap-6 p-4 text-center">
                 <li>
                     <img class="rounded-xl " src="https://picsum.photos/100" alt="" />

@@ -5,7 +5,7 @@ import { useTypewriter } from "react-simple-typewriter";
 
 function Intro() {
     const [typingEffect] = useTypewriter({
-        words: [` Victor.`, ` a React Developer.`],
+        words: [` Victor.`, ` your 'Next' Developer.`],
         loop: {},
         typeSpeed: 100,
         deleteSpeed: 80,
@@ -24,9 +24,9 @@ function Intro() {
                     <a
                         href="https://nextjs.org"
                         target="_blank"
-                        class="inline-flex items-center rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100 p-5 m-2"
+                        class="inline-flex items-center rounded border border-neutral-200 bg-neutral-50 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100 p-3 m-2"
                     >
-                        <RiNextjsFill class="md:text-2xl mr-1" />
+                        <RiNextjsFill class="md:text-2xl" />
                         Next.js
                     </a>
                     Folio
