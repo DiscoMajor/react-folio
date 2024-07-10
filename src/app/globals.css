@@ -5,17 +5,14 @@
 body {
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px rgb(184, 238, 180);
+    border-radius: 10px;
 }
 
 @layer utilities {
     .text-balance {
         text-wrap: balance;
     }
-}
-
-.tintni::after {
-    content: "";
-    color: aqua;
-    width: 50px;
-    height: 10px;
 }

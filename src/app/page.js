@@ -6,13 +6,15 @@ import AboutMe from "./components/aboutme.js";
 
 function App() {
     return (
-        <>
-            <NaviBar />
-            <Intro />
-            <AboutMe />
-            <Experiences />
-            <ContactMe />
-        </>
+        <body>
+            <>
+                <NaviBar />
+                <Intro />
+                <AboutMe />
+                <Experiences />
+                <ContactMe />
+            </>
+        </body>
     );
 }
 
