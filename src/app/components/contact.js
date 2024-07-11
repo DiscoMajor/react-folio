@@ -1,3 +1,3 @@
 export default function ContactMe() {
-    return <footer></footer>;
+    return <footer>Remettre ici mes logos ? Et en savoir plus sur moi ?</footer>;
 }

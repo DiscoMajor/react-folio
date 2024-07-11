@@ -12,8 +12,8 @@ function Intro() {
 
     return (
         <section class="min-h-70 m-5 flex relative">
-            <div class="text-center p-10 py-10 flex-auto ">
-                <h2 class="xl:text-6xl md:text-5xl sm:text-4xl font-bold py-2 bg-gradient-to-r from-green-600 via-green-500 to-green-300 inline-block text-transparent bg-clip-text ">
+            <div class="text-center p-10 xs:p-0 py-10 flex-auto ">
+                <h2 class="lg:text-6xl md:text-5xl sm:text-4xl xs:text-2xl font-bold py-2 bg-gradient-to-r from-green-600 via-green-500 to-green-300 inline-block text-transparent bg-clip-text ">
                     I&apos;m
                     <span>{typingEffect}</span>
                 </h2>
