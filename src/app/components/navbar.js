@@ -11,7 +11,7 @@ function Navibar() {
                         <li>
                             <a
                                 class="bg-gradient-to-r from-emerald-500 text- to-green-600 text-white px-4 xs:px-1 py-2 border-none rounded-xl"
-                                href="#"
+                                href="#aboutme"
                             >
                                 About Me
                             </a>
@@ -19,7 +19,7 @@ function Navibar() {
                         <li>
                             <a
                                 class="bg-gradient-to-r from-emerald-500 text- to-green-600 text-white px-4 xs:px-1 py-2 border-none rounded-xl "
-                                href="#"
+                                href="#experiences"
                             >
                                 Experiences
                             </a>
@@ -29,7 +29,7 @@ function Navibar() {
                                 class="bg-gradient-to-r from-emerald-500 text- to-green-600 text-white px-4 xs:px-1 py-2 border-none rounded-xl "
                                 href="#"
                             >
-                                Get in touch
+                                Some More...
                             </a>
                         </li>
                     </ul>

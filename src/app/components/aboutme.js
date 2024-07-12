@@ -5,7 +5,10 @@ import mailicon from "../assets/icons/mailicon.svg";
 
 export default function AboutMe() {
     return (
-        <section className="flex flex-col lg:mx-24 sm:mx-4 relative mb-10 text-justify lg:text-lg md:text-base sm:text-sm xs:text-xs">
+        <section
+            className=" flex flex-col lg:mx-24 sm:mx-4 relative mb-10 text-justify lg:text-lg md:text-base sm:text-sm xs:text-xs"
+            id="aboutme"
+        >
             <div className="p-5 ">
                 <p>
                     Je suis à la recherche d’une entreprise pour réaliser une alternance d’un an en tant que Concepteur Développeur
@@ -21,13 +24,13 @@ export default function AboutMe() {
 
             <div className="flex  gap-3 mx-5">
                 <button className="border-2 rounded border-gray-200 py-2 px-3 hover:border-green-600 hover:bg-green-100 shadow-md">
-                    <a href="www.linkedin.com/in/victor-lobbé-999848296">
-                        <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={linkedin} alt="LinkedIn" />
+                    <a href="https://linkedin.com/in/victor-lobbé-999848296" target="_blank">
+                        <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={linkedin} alt="LinkedIn" target="_blank" />
                     </a>
                 </button>
 
                 <button className="border-2 rounded border-gray-200 py-2 px-3 hover:border-green-600 hover:bg-green-100 shadow-md">
-                    <a href="https://github.com/DiscoMajor">
+                    <a href="https://github.com/DiscoMajor" target="_blank">
                         <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={githubicon} alt="GitHub" />
                     </a>
                 </button>
