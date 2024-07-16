@@ -1,8 +1,9 @@
 import Intro from "./components/description.js";
 import NaviBar from "./components/navbar.js";
-import Experiences from "./components/experiences.js";
+import Experiences from "./components/technoskills.js";
 import MoreAbout from "./components/footer.js";
 import AboutMe from "./components/aboutme.js";
+import TechnoSkills from "./components/technoskills.js";
 
 function App() {
     return (
@@ -11,7 +12,7 @@ function App() {
                 <NaviBar />
                 <Intro />
                 <AboutMe />
-                <Experiences />
+                <TechnoSkills />
                 <MoreAbout />
             </body>
         </html>
