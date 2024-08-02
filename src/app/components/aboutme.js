@@ -1,7 +1,7 @@
 import Image from "next/image";
-import linkedin from "../assets/icons/linkedin.svg";
-import githubicon from "../assets/icons/github.svg";
-import mailicon from "../assets/icons/mailicon.svg";
+import linkedin from "/public/icons/linkedin.svg";
+import githubicon from "/public/icons/github.svg";
+import mailicon from "/public/icons/mailicon.svg";
 
 export default function AboutMe() {
     return (

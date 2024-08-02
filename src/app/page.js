@@ -6,8 +6,8 @@ import TechnoSkills from "./components/technoskills.js";
 
 function App() {
     return (
-        <html className="overflow-y-scroll no-scrollbar scroll-smooth">
-            <body>
+        <html className="overflow-y-scroll no-scrollbar scroll-smooth" suppressHydrationWarning={true}>
+            <body suppressHydrationWarning={true}>
                 <NaviBar />
                 <Intro />
                 <AboutMe />
