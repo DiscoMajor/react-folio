@@ -1,6 +1,5 @@
 import Intro from "./components/description.js";
-import NaviBar from "./components/navbar.js";
-import Experiences from "./components/technoskills.js";
+import NaviBar from "./components/header.js";
 import MoreAbout from "./components/footer.js";
 import AboutMe from "./components/aboutme.js";
 import TechnoSkills from "./components/technoskills.js";
