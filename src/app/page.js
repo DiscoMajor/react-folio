@@ -1,6 +1,5 @@
-import Intro from "./components/description.js";
+import Intro from "./components/banner.js";
 import NaviBar from "./components/header.js";
-import MoreAbout from "./components/footer.js";
 import AboutMe from "./components/aboutme.js";
 import TechnoSkills from "./components/technoskills.js";
 
@@ -12,7 +11,6 @@ function App() {
                 <Intro />
                 <AboutMe />
                 <TechnoSkills />
-                <MoreAbout />
             </body>
         </html>
     );

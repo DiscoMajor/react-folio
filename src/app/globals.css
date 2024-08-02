@@ -24,3 +24,22 @@ body {
         scrollbar-width: none; /* Firefox */
     }
 }
+
+/* .transformation {
+    transform: rotateY(0deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.transformation:hover {
+    transform: rotateY(30deg);
+    animation: rotate360 2s linear 1;
+}
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+} */
