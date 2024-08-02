@@ -10,7 +10,7 @@ import illustratorIcon from "/public/icons/illustratorIcon.svg";
 export default function TechnoSkills() {
     return (
         <div className="flex justify-around gap-10 flex-wrap roboto mb-11">
-            <div className="flex flex-col bg-slate-50 border-2 rounded border-gray-200 hover:border-green-600 hover:bg-green-100 shadow-md box-content h-56 w-64  transformation">
+            <div className="flex flex-col bg-slate-50 border-2 rounded border-gray-200 hover:border-green-600 hover:bg-green-100 shadow-md box-content h-56 w-64">
                 <ul className="p-5  space-y-6  ">
                     <h3 className="font-bold text-center text-2xl bg-gradient-to-r from-green-700 via-green-600 to-green-500 text-transparent bg-clip-text">
                         FRONT-END

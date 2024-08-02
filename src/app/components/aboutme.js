@@ -5,7 +5,7 @@ import mailicon from "/public/icons/mailicon.svg";
 
 export default function AboutMe() {
     return (
-        <section className=" flex flex-col lg:mx-24 sm:mx-4 relative text-justify lg:text-lg md:text-base sm:text-sm xs:text-xs p-20 mb-10">
+        <section className=" flex flex-col p-20 mb-10 xs:p-5 xs:mb-6 lg:mx-24 sm:mx-4 relative text-justify lg:text-lg md:text-base sm:text-sm xs:text-xs">
             <div className="leading-10 space-y-6">
                 <p>
                     Actuellement
@@ -30,28 +30,28 @@ export default function AboutMe() {
             </div>
 
             <div className="flex gap-5 mt-8">
-                <button className="border-2 rounded border-gray-200 py-2 px-3 hover:border-green-600 hover:bg-green-100 shadow-md  transition ease-in-out hover:-translate-y-1">
+                <button className="border-2 rounded border-gray-200 py-2 px-3 xs:px-2 hover:border-green-600 hover:bg-green-100 shadow-md transition ease-in-out hover:-translate-y-1">
                     <a href="https://linkedin.com/in/victor-lobbé-999848296" target="_blank">
-                        <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={linkedin} alt="LinkedIn" target="_blank" />
+                        <Image className="w-7 md:w-7 xs:w-6 flex-shrink-0" src={linkedin} alt="LinkedIn" target="_blank" />
                     </a>
                 </button>
 
-                <button className="border-2 rounded border-gray-200 py-2 px-3 hover:border-green-600 hover:bg-green-100 shadow-md  transition ease-in-out hover:-translate-y-1">
+                <button className="border-2 rounded border-gray-200 py-2 px-3 xs:px-2 hover:border-green-600 hover:bg-green-100 shadow-md transition ease-in-out hover:-translate-y-1">
                     <a href="https://github.com/DiscoMajor" target="_blank">
-                        <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={githubicon} alt="GitHub" />
+                        <Image className="w-7 md:w-7 xs:w-6 flex-shrink-0" src={githubicon} alt="GitHub" />
                     </a>
                 </button>
 
-                <button className="border-2 rounded border-gray-200 py-2 px-3 hover:border-green-600 hover:bg-green-100 shadow-md  transition ease-in-out hover:-translate-y-1">
+                <button className="border-2 rounded border-gray-200 py-2 px-3 xs:px-2  hover:border-green-600 hover:bg-green-100 shadow-md transition ease-in-out hover:-translate-y-1">
                     <a href="mailto:victorlobbe@gmail.com">
-                        <Image className="w-7 md:w-7 sm:w-7 flex-shrink-0" src={mailicon} alt="Email" />
+                        <Image className="w-7 md:w-7 xs:w-6 flex-shrink-0" src={mailicon} alt="Email" />
                     </a>
                 </button>
             </div>
 
-            <div className="absolute right-20 bottom-20 lg:text-lg md:text-base sm:text-xs">
+            <div className="absolute right-20 bottom-20 lg:text-lg md:text-base sm:text-xs xs:bottom-4 xs:right-5">
                 <a className=" text-green-500 hover:text-green-600 hover:underline" href="CV" target="blank">
-                    Téléchargez le CV
+                    Mon CV
                 </a>
             </div>
         </section>
