@@ -1,6 +1,6 @@
 import Intro from "./components/banner.js";
 import NaviBar from "./components/header.js";
-import AboutMe from "./components/aboutme.js";
+import Description from "./components/description.js";
 import TechnoSkills from "./components/technoskills.js";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
             <body suppressHydrationWarning={true}>
                 <NaviBar />
                 <Intro />
-                <AboutMe />
+                <Description />
                 <TechnoSkills />
             </body>
         </html>

@@ -3,7 +3,7 @@ import linkedin from "/public/icons/linkedin.svg";
 import githubicon from "/public/icons/github.svg";
 import mailicon from "/public/icons/mailicon.svg";
 
-export default function AboutMe() {
+export default function Description() {
     return (
         <section className=" flex flex-col p-20 mb-10 xs:p-5 xs:mb-6 lg:mx-24 sm:mx-4 relative text-justify lg:text-lg md:text-base sm:text-sm xs:text-xs">
             <div className="leading-10 space-y-6">
